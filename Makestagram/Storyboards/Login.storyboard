@@ -60,6 +60,9 @@
                                 <state key="normal" title="Register or Log in">
                                     <color key="titleShadowColor" red="0.17853804049999999" green="0.71123432710000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="loginButtonTapped:" destination="xCJ-9h-H4e" eventType="touchUpInside" id="L6x-vn-YTH"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -72,6 +75,9 @@
                             <constraint firstItem="RJP-yu-JbM" firstAttribute="top" secondItem="VW4-pN-Blb" secondAttribute="bottom" id="nAU-HW-Zk4"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="loginButton" destination="BRH-N7-UP1" id="Qt2-ve-4Uc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I5a-gJ-U5X" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

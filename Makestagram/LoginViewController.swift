@@ -10,6 +10,8 @@ import UIKit
 
 class LoginViewController: UIViewController {
     
+    @IBOutlet weak var loginButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -18,6 +20,9 @@ class LoginViewController: UIViewController {
         super.didReceiveMemoryWarning()
     }
 
+    @IBAction func loginButtonTapped(_ sender: UIButton) {
+        print("login button tapped")
+    }
 
 }
 
