@@ -17,6 +17,8 @@
 		CF48B1DD1F0581F600A43DA3 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF48B1DC1F0581F600A43DA3 /* Login.storyboard */; };
 		CF48B1DF1F05949500A43DA3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF48B1DE1F05949500A43DA3 /* LoginViewController.swift */; };
 		CF48B1E21F05C09F00A43DA3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF48B1E11F05C09F00A43DA3 /* User.swift */; };
+		CF48B1E51F06D3E100A43DA3 /* CreateUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF48B1E41F06D3E100A43DA3 /* CreateUsernameViewController.swift */; };
+		CF48B1E81F0AF08400A43DA3 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF48B1E71F0AF08400A43DA3 /* UserService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		CF48B1DC1F0581F600A43DA3 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Login.storyboard; path = Storyboards/Login.storyboard; sourceTree = "<group>"; };
 		CF48B1DE1F05949500A43DA3 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CF48B1E11F05C09F00A43DA3 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CF48B1E41F06D3E100A43DA3 /* CreateUsernameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateUsernameViewController.swift; sourceTree = "<group>"; };
+		CF48B1E71F0AF08400A43DA3 /* UserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,7 @@
 		CF48B1AD1F05676000A43DA3 /* Makestagram */ = {
 			isa = PBXGroup;
 			children = (
+				CF48B1E61F0AF05500A43DA3 /* Services */,
 				CF48B1AE1F05676000A43DA3 /* AppDelegate.swift */,
 				CF48B1DA1F0579C300A43DA3 /* View Controllers */,
 				CF48B1E31F05C0A400A43DA3 /* Models */,
@@ -111,6 +116,7 @@
 			children = (
 				CF48B1CE1F0574C500A43DA3 /* ViewController.swift */,
 				CF48B1DE1F05949500A43DA3 /* LoginViewController.swift */,
+				CF48B1E41F06D3E100A43DA3 /* CreateUsernameViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -130,6 +136,14 @@
 				CF48B1E11F05C09F00A43DA3 /* User.swift */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		CF48B1E61F0AF05500A43DA3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CF48B1E71F0AF08400A43DA3 /* UserService.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +274,9 @@
 			files = (
 				CF48B1E21F05C09F00A43DA3 /* User.swift in Sources */,
 				CF48B1DF1F05949500A43DA3 /* LoginViewController.swift in Sources */,
+				CF48B1E81F0AF08400A43DA3 /* UserService.swift in Sources */,
 				CF48B1CF1F0574C500A43DA3 /* ViewController.swift in Sources */,
+				CF48B1E51F06D3E100A43DA3 /* CreateUsernameViewController.swift in Sources */,
 				CF48B1AF1F05676000A43DA3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

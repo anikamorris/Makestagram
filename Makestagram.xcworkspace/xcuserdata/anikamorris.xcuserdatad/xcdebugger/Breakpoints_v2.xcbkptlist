@@ -9,13 +9,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Makestagram/LoginViewController.swift"
-            timestampString = "520533415.695547"
+            filePath = "Makestagram/CreateUsernameViewController.swift"
+            timestampString = "520966174.73203"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "55"
-            endingLineNumber = "55"
-            landmarkName = "authUI(_:didSignInWith:error:)"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "nextButtonTapped(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
