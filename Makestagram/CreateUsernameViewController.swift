@@ -32,12 +32,10 @@ class CreateUsernameViewController: UIViewController {
             
             User.setCurrent(user)
             
-            let storyboard = UIStoryboard(name: "Main", bundle: .main)
+            let initialViewController = UIStoryboard.initialViewController(for: .main)
+            self.view.window?.rootViewController = initialViewController
+            self.view.window?.makeKeyAndVisible()
             
-            if let initialViewController = storyboard.instantiateInitialViewController() {
-                self.view.window?.rootViewController = initialViewController
-                self.view.window?.makeKeyAndVisible()
-            }
             
             print("Created new user: \(user.username)")
         }
