@@ -21,7 +21,7 @@ class MGPhotoHelper: NSObject {
             
         if UIImagePickerController.isSourceTypeAvailable(.camera) {
             let capturePhotoAction = UIAlertAction(title: "Take Photo", style: .default, handler: { action in
-                
+                self.presentImagePickerController(with: .camera, from: ViewController)
             })
             
             alertController.addAction(capturePhotoAction)
@@ -29,7 +29,7 @@ class MGPhotoHelper: NSObject {
         
         if UIImagePickerController.isSourceTypeAvailable(.photoLibrary) {
             let uploadAction = UIAlertAction(title: "Upload from Library", style: .default, handler: { action in
-                
+                self.presentImagePickerController(with: .photoLibrary, from: ViewController)
             })
             
             alertController.addAction(uploadAction)
@@ -40,4 +40,15 @@ class MGPhotoHelper: NSObject {
         
         ViewController.present(alertController, animated: true)
     }
+    
+    func presentImagePickerController(with sourceType: UIImagePickerControllerSourceType, from viewController: UIViewController) {
+        let imagePickerController = UIImagePickerController()
+        imagePickerController.sourceType = sourceType
+        
+        viewController.present(imagePickerController, animated: true)
+    }
 }
+
+
+
+
