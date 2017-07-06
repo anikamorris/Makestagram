@@ -24,6 +24,8 @@
 		CF48B2261F0DA51F00A43DA3 /* FindFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF48B2251F0DA51F00A43DA3 /* FindFriendsViewController.swift */; };
 		CF48B2281F0DF42300A43DA3 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF48B2271F0DF42300A43DA3 /* MainTabBarController.swift */; };
 		CF48B22A1F0EA56700A43DA3 /* MGPhotoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF48B2291F0EA56700A43DA3 /* MGPhotoHelper.swift */; };
+		CF48B22D1F0ED1CB00A43DA3 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF48B22C1F0ED1CB00A43DA3 /* StorageService.swift */; };
+		CF48B22F1F0EDA1A00A43DA3 /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF48B22E1F0EDA1A00A43DA3 /* PostService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +50,8 @@
 		CF48B2251F0DA51F00A43DA3 /* FindFriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindFriendsViewController.swift; sourceTree = "<group>"; };
 		CF48B2271F0DF42300A43DA3 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		CF48B2291F0EA56700A43DA3 /* MGPhotoHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MGPhotoHelper.swift; path = ../MGPhotoHelper.swift; sourceTree = "<group>"; };
+		CF48B22C1F0ED1CB00A43DA3 /* StorageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		CF48B22E1F0EDA1A00A43DA3 /* PostService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +161,8 @@
 			isa = PBXGroup;
 			children = (
 				CF48B1E71F0AF08400A43DA3 /* UserService.swift */,
+				CF48B22C1F0ED1CB00A43DA3 /* StorageService.swift */,
+				CF48B22E1F0EDA1A00A43DA3 /* PostService.swift */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -304,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF48B1E21F05C09F00A43DA3 /* User.swift in Sources */,
+				CF48B22D1F0ED1CB00A43DA3 /* StorageService.swift in Sources */,
 				CF48B1DF1F05949500A43DA3 /* LoginViewController.swift in Sources */,
 				CF48B2281F0DF42300A43DA3 /* MainTabBarController.swift in Sources */,
 				CF48B1E81F0AF08400A43DA3 /* UserService.swift in Sources */,
@@ -312,6 +319,7 @@
 				CF48B1ED1F0D60A900A43DA3 /* Storyboard+Utility.swift in Sources */,
 				CF48B2261F0DA51F00A43DA3 /* FindFriendsViewController.swift in Sources */,
 				CF48B1EA1F0D5F4C00A43DA3 /* Constants.swift in Sources */,
+				CF48B22F1F0EDA1A00A43DA3 /* PostService.swift in Sources */,
 				CF48B1E51F06D3E100A43DA3 /* CreateUsernameViewController.swift in Sources */,
 				CF48B1AF1F05676000A43DA3 /* AppDelegate.swift in Sources */,
 			);
