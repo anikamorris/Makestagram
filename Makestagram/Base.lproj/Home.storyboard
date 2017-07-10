@@ -26,8 +26,44 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostHeaderCell" rowHeight="54" id="LYD-M7-N0X" customClass="PostHeaderCell" customModule="Makestagram" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="54"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LYD-M7-N0X" id="5vt-Tn-ln4">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="54"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FXX-4t-pV5">
+                                                    <rect key="frame" x="323" y="4" width="44" height="44"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="44" id="7Og-2o-YYR"/>
+                                                        <constraint firstAttribute="height" constant="44" id="Squ-26-5jq"/>
+                                                    </constraints>
+                                                    <state key="normal" image="btn_options_black"/>
+                                                    <connections>
+                                                        <action selector="optionsButtonTapped:" destination="LYD-M7-N0X" eventType="touchUpInside" id="fZg-J8-SDC"/>
+                                                    </connections>
+                                                </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tpG-zC-XAd">
+                                                    <rect key="frame" x="8" y="0.0" width="88" height="54"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="tpG-zC-XAd" firstAttribute="centerY" secondItem="5vt-Tn-ln4" secondAttribute="centerY" id="4pG-AA-Ycv"/>
+                                                <constraint firstItem="FXX-4t-pV5" firstAttribute="centerY" secondItem="5vt-Tn-ln4" secondAttribute="centerY" id="5Vy-v7-zZH"/>
+                                                <constraint firstItem="FXX-4t-pV5" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="tpG-zC-XAd" secondAttribute="trailing" constant="15" id="AqU-0z-9ew"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="FXX-4t-pV5" secondAttribute="trailing" id="VXg-mZ-cu9"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="usernameLabel" destination="tpG-zC-XAd" id="tYk-fG-mRL"/>
+                                        </connections>
+                                    </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="PostImageCell" rowHeight="375" id="DDv-EJ-NO7" customClass="PostImageCell" customModule="Makestagram" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="375"/>
+                                        <rect key="frame" x="0.0" y="82" width="375" height="375"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="DDv-EJ-NO7" id="JSX-B3-Na4">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="375"/>
@@ -96,6 +132,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="btn_options_black" width="16" height="16"/>
         <image name="tab_home_black" width="25" height="25"/>
     </resources>
 </document>

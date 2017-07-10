@@ -13,5 +13,4 @@ target 'Makestagram' do
   pod ‘Kingfisher’, ’~> 3.0’
 end
 
-$ pod install
 
