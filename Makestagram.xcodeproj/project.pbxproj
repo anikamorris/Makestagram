@@ -30,6 +30,7 @@
 		CF48B2331F0EF0B700A43DA3 /* UIImage+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF48B2321F0EF0B700A43DA3 /* UIImage+Size.swift */; };
 		CF48B2351F0EFBC200A43DA3 /* StorageReference+Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF48B2341F0EFBC200A43DA3 /* StorageReference+Post.swift */; };
 		CF48B2381F0F031200A43DA3 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF48B2361F0F031200A43DA3 /* Home.storyboard */; };
+		CF48B23A1F13F12300A43DA3 /* PostImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF48B2391F13F12300A43DA3 /* PostImageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		CF48B2321F0EF0B700A43DA3 /* UIImage+Size.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Size.swift"; sourceTree = "<group>"; };
 		CF48B2341F0EFBC200A43DA3 /* StorageReference+Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "StorageReference+Post.swift"; sourceTree = "<group>"; };
 		CF48B2371F0F031200A43DA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
+		CF48B2391F13F12300A43DA3 /* PostImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostImageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 				CF48B1E41F06D3E100A43DA3 /* CreateUsernameViewController.swift */,
 				CF48B2231F0DA50300A43DA3 /* HomeViewController.swift */,
 				CF48B2251F0DA51F00A43DA3 /* FindFriendsViewController.swift */,
+				CF48B2391F13F12300A43DA3 /* PostImageCell.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -328,6 +331,7 @@
 				CF48B2281F0DF42300A43DA3 /* MainTabBarController.swift in Sources */,
 				CF48B1E81F0AF08400A43DA3 /* UserService.swift in Sources */,
 				CF48B2311F0EE76D00A43DA3 /* Post.swift in Sources */,
+				CF48B23A1F13F12300A43DA3 /* PostImageCell.swift in Sources */,
 				CF48B2331F0EF0B700A43DA3 /* UIImage+Size.swift in Sources */,
 				CF48B2241F0DA50300A43DA3 /* HomeViewController.swift in Sources */,
 				CF48B22A1F0EA56700A43DA3 /* MGPhotoHelper.swift in Sources */,
