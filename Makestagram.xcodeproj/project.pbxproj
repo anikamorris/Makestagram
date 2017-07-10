@@ -27,6 +27,9 @@
 		CF48B22D1F0ED1CB00A43DA3 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF48B22C1F0ED1CB00A43DA3 /* StorageService.swift */; };
 		CF48B22F1F0EDA1A00A43DA3 /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF48B22E1F0EDA1A00A43DA3 /* PostService.swift */; };
 		CF48B2311F0EE76D00A43DA3 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF48B2301F0EE76D00A43DA3 /* Post.swift */; };
+		CF48B2331F0EF0B700A43DA3 /* UIImage+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF48B2321F0EF0B700A43DA3 /* UIImage+Size.swift */; };
+		CF48B2351F0EFBC200A43DA3 /* StorageReference+Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF48B2341F0EFBC200A43DA3 /* StorageReference+Post.swift */; };
+		CF48B2381F0F031200A43DA3 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF48B2361F0F031200A43DA3 /* Home.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +57,9 @@
 		CF48B22C1F0ED1CB00A43DA3 /* StorageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
 		CF48B22E1F0EDA1A00A43DA3 /* PostService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
 		CF48B2301F0EE76D00A43DA3 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		CF48B2321F0EF0B700A43DA3 /* UIImage+Size.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Size.swift"; sourceTree = "<group>"; };
+		CF48B2341F0EFBC200A43DA3 /* StorageReference+Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "StorageReference+Post.swift"; sourceTree = "<group>"; };
+		CF48B2371F0F031200A43DA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +153,7 @@
 			children = (
 				CF48B1DC1F0581F600A43DA3 /* Login.storyboard */,
 				CF48B1D01F05755D00A43DA3 /* Main.storyboard */,
+				CF48B2361F0F031200A43DA3 /* Home.storyboard */,
 			);
 			name = Storyboards;
 			sourceTree = "<group>";
@@ -174,6 +181,8 @@
 			isa = PBXGroup;
 			children = (
 				CF48B1EC1F0D60A900A43DA3 /* Storyboard+Utility.swift */,
+				CF48B2321F0EF0B700A43DA3 /* UIImage+Size.swift */,
+				CF48B2341F0EFBC200A43DA3 /* StorageReference+Post.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -252,6 +261,7 @@
 				CF48B1D11F05755D00A43DA3 /* Main.storyboard in Resources */,
 				CF48B1D31F0575FE00A43DA3 /* LaunchScreen.storyboard in Resources */,
 				CF48B1DD1F0581F600A43DA3 /* Login.storyboard in Resources */,
+				CF48B2381F0F031200A43DA3 /* Home.storyboard in Resources */,
 				CF48B1B61F05676000A43DA3 /* Assets.xcassets in Resources */,
 				CF48B1D51F05767100A43DA3 /* GoogleService-Info.plist in Resources */,
 			);
@@ -318,10 +328,12 @@
 				CF48B2281F0DF42300A43DA3 /* MainTabBarController.swift in Sources */,
 				CF48B1E81F0AF08400A43DA3 /* UserService.swift in Sources */,
 				CF48B2311F0EE76D00A43DA3 /* Post.swift in Sources */,
+				CF48B2331F0EF0B700A43DA3 /* UIImage+Size.swift in Sources */,
 				CF48B2241F0DA50300A43DA3 /* HomeViewController.swift in Sources */,
 				CF48B22A1F0EA56700A43DA3 /* MGPhotoHelper.swift in Sources */,
 				CF48B1ED1F0D60A900A43DA3 /* Storyboard+Utility.swift in Sources */,
 				CF48B2261F0DA51F00A43DA3 /* FindFriendsViewController.swift in Sources */,
+				CF48B2351F0EFBC200A43DA3 /* StorageReference+Post.swift in Sources */,
 				CF48B1EA1F0D5F4C00A43DA3 /* Constants.swift in Sources */,
 				CF48B22F1F0EDA1A00A43DA3 /* PostService.swift in Sources */,
 				CF48B1E51F06D3E100A43DA3 /* CreateUsernameViewController.swift in Sources */,
@@ -330,6 +342,17 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF48B2361F0F031200A43DA3 /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF48B2371F0F031200A43DA3 /* Base */,
+			);
+			name = Home.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CF48B1BB1F05676000A43DA3 /* Debug */ = {
